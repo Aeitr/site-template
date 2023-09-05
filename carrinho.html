@@ -1,0 +1,180 @@
+<html>
+	<head>
+ 		<title>CAAM AutoPeças | O Shopping Do Seu Carro</title>
+
+ 		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+		<link rel="stylesheet" href="carrinho.css"/>
+
+	</head>
+	<body>	
+		
+	<!--NAVBAR-->
+	<nav class="navbar navbar-expand-lg navbar-light navbar navbar-light">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="index.html">
+
+			  <!--LOGO-->
+			  <img class="logo" src="https://i.imgur.com/Tsb9OIn.png"/>
+		 	 </a>
+		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		  	<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+				  <li class="nav-item">
+				  <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+			      </li>
+
+			  <!--MENU CATEGORIA-->
+				<li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Categorias</a>
+				<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+				  <li><a class="dropdown-item" href="#">Promoção</a></li>
+				  <li><hr class="dropdown-divider"></li>
+				  <li><a class="dropdown-item" href="#">Iluminação</a></li>
+				  <li><hr class="dropdown-divider"></li>
+				  <li><a class="dropdown-item" href="#">Pneus</a></li>
+				  <li><hr class="dropdown-divider"></li>
+				  <li><a class="dropdown-item" href="#">Motor</a></li>
+				  <li><hr class="dropdown-divider"></li>
+				  <li><a class="dropdown-item" href="#">Freios</a></li>
+				  <li><hr class="dropdown-divider"></li>
+				  <li><a class="dropdown-item" href="#">Acessórios</a></li>
+				  <li><hr class="dropdown-divider"></li>
+				  <li><a class="dropdown-item" href="#">Ver mais</a></li>
+				</ul>
+			 	</li>
+
+				 <!--MENU MARCAS-->
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Marcas</a>
+					<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+					  <li><a class="dropdown-item" href="#">ATRIO</a></li>
+					  <li><hr class="dropdown-divider"></li>
+					  <li><a class="dropdown-item" href="#">COBREQ</a></li>
+					  <li><hr class="dropdown-divider"></li>
+					  <li><a class="dropdown-item" href="#">COFAP</a></li>
+					  <li><hr class="dropdown-divider"></li>
+					  <li><a class="dropdown-item" href="#">DEPO</a></li>
+					  <li><hr class="dropdown-divider"></li>
+					  <li><a class="dropdown-item" href="#">HIPER FREIOS</a></li>
+					  <li><hr class="dropdown-divider"></li>
+					  <li><a class="dropdown-item" href="#">Ver mais</a></li>
+					  </ul>
+					 </li>
+					 
+				<!--OUTROS TOPICOS NAVBAR-->
+				<li class="nav-item">
+				<a class="nav-link" href="cadastrese.html">Cadastre-se</a>
+				</li>
+			  	<li class="nav-item">
+				<a class="nav-link" href="login.html">Login</a>
+			 	</li>
+			  	<li class="nav-item">
+				<a class="nav-link" href="carrinho.html">Carrinho</a>
+				</li>
+				<a class="nav-link" href="#">Ajuda</a>
+				</li>
+				</li>
+			</ul>
+
+			<!--BARRA BUSCA-->
+			<form class="d-flex">
+			  <input class="form-control me-2" type="search" placeholder="Digite aqui sua busca" aria-label="Search">
+			  <button class="btn btn-outline-dark" type="submit">Buscar</button>
+			</form>
+		  </div>
+		</div>
+	</nav>
+
+	<img class="banner" src = "https://i.imgur.com/spLZqBq.jpg"/>
+
+  	<!--TABELA CARRINHO-->
+  	<div class="Tabela">
+  	<table class="table table-bordered border-secondary">
+    	<thead>
+      		<tr>
+        		<th scope="col"><strong>Produto</strong></th>
+        		<th scope="col"><strong>Valor Unitário</strong></th>
+        		<th scope="col"><strong>Quantidade</strong></th>
+        		<th scope="col"><strong>Sub-total</strong></th>
+      		</tr>
+    	</thead>
+    	<tbody>
+      		<tr>
+        		<td>
+					<div class="imgProd">
+						<div class="imgCarr">
+							<img src="https://31b93296e4855c6e.cdn.gocache.net/loja/imagens/full/amortecedor-dianteiro-direito-palio-g5-grand-siena-cofap-1.png" class="card-img-top" alt="Amortecedor TOP">
+						</div>
+						<div class="descricaoItem">
+							<strong>Amortecedor Dianteiro Grand Siena 13/19 - COFAP</strong>
+						</div>
+					</div>
+				</td>
+        		<td><strong>R$ 399,99</strong></td>
+        		<td><strong>1</strong></td>
+        		<td><strong>R$ 399,99</strong></td>
+      		</tr>
+    	</tbody>
+  	</table>
+	</div>
+	<!--BOTÔES -->
+	<div class="botoes">
+		<div class="btnComprando">
+			<a href="#" class="btn btn-success">Continuar comprando</a>
+		</div>
+		<div class="btnLimpar">	
+			<a href="#" class="btn btn-secondary">Limpar carrinho</a>
+		</div>
+		<div class="btnFinalizar">
+		<button class="btn btn-success" type="submit">Finalizar Compra</button>
+		</div>	
+	</div>
+
+	<!--CALCULAR FRETE-->
+	<div class="row">
+	  <div class="calculaFrete">
+		<input type="text" class="text" placeholder="Digite o Frete" aria-label="Digite o frete" aria-describedby="button-addon1">
+		<button class="btn btn-outline-success" type="button" id="button-addon1">Calcular</button>
+	  </div>
+	</div>  
+
+	<!--RODAPÉ-->
+	<div class="footer">
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3>SAC / ATENDIMENTO</h3>
+                        <ul>
+                            <li><a href="#">(11) XXXX-XXXX</a></li>
+                            <li><a href="#">(11) 9XXXX-XXXX</a></li>
+                            <li><a href="#">sac@caamautopecas.com.br</a></li>
+							<li><a href="#">Seg a Sex das 8h às 18h</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3>INSTITUCIONAL</h3>
+                        <ul>
+                            <li><a href="#">Quem somos</a></li>
+                            <li><a href="#">Trocas e Devoluções</a></li>
+                            <li><a href="#">Politica de Privacidade</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 item text">
+                        <h3>Nossas lojas em São Paulo-SP</h3>
+                        <ul>
+                            <li><a href="#"><strong>Tatuapé:</strong> Rua Prof. Pedreira de Freitas, 415</a></li>
+                            <li><a href="#"><strong>Ponte Rasa:</strong> Avenida São Miguel, 4335</a></li>
+                        </ul>
+                    </div>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
+                	<p class="copyright">CAMM AutoPeças © 2021</p>
+				</div>
+            </div>
+        </footer>
+    </div>
+	
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>	
+</body>
+</html>

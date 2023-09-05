@@ -1,0 +1,126 @@
+html,body{
+    height: 100%; 
+  }
+  
+  body{
+    background-color: rgb(230, 230, 230);
+  }
+  
+  img {
+    width: 100%;
+    height: 100%;
+    max-height: 300;
+    max-width: 2000;
+  }
+   
+  .navbar{
+    background-color: #f57803;
+    border-bottom:solid 2px black;
+  } 
+
+  .logo{
+    width: 65%;
+    height: 65%;
+  }
+
+  .banner{
+    border-bottom: solid 1px rgb(0, 0, 0);
+    margin-bottom: 30;
+  }
+
+  .Tabela{
+    padding-left: 50;
+    padding-right: 50;
+  }
+
+  .imgProd{
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+  }
+
+  .imgCarr{
+    margin-top: 10;
+    height: 90px;
+    width: 90px;
+  }
+
+  .descricaoItem{
+    margin: 50;
+  }
+
+  .botoes{
+    padding-right: 50;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-bottom: 50;
+  }
+
+  .btnComprando{
+    margin-right: 10;
+  }
+
+  .btnLimpar{
+    margin-left: 10;
+  }
+  
+  .btnFinalizar{
+    margin-left: 10;
+    }
+
+  .calculaFrete{
+    padding-right: 900;
+    padding-left: 50;
+    margin-bottom: 50;
+  }
+
+  input[type=text]{
+    padding-left: 10px;
+    width: 300px;
+    border-radius: 4px;
+    border: 1px solid rgb(121, 120, 120);
+  }
+
+  .footer {
+    width: 100%;
+    position: absolute;
+    padding:50px;
+    color:#050505;
+    background-color:#f57803;
+    border-top:solid 2px black;
+  }
+    
+  .footer h3 {
+    margin-top:0;
+    margin-bottom:12px;
+    font-weight:bold;
+    font-size:16px;
+  }
+    
+  .footer ul {
+    padding:0;
+    list-style:none;
+    line-height:1.6;
+    font-size:14px;
+    margin-bottom:0;
+  }
+    
+  .footer ul a {
+    color:inherit;
+    text-decoration:none;
+    opacity:0.6;
+  }
+    
+  .footer ul a:hover {
+    opacity:0.8;
+  }
+    
+  .footer .copyright {
+    text-align:center;
+    padding-top:24px;
+    opacity:0.5;
+    font-size:13px;
+    margin-bottom:0;
+  }
+  
